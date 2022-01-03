@@ -11,5 +11,5 @@ Nivre, Joakim, Marie-Catherine de Marneffe, Filip Ginter, Jan Hajič, Christophe
 
 Kabiri, Roya, Simin, Karimi, and Mihai Surdeanu (2022). Informal Persian Universal Dependency Treebank. (to appear)
 
-Seraji, Mojgan, Filip, Ginter and Nivre, Joakim. (2016). Universal Dependencies for Persian. In Proceedings of the 10th International Conference on Language Resources and Evaluation (LREC), Portorož, Slovenia.
+Seraji, Mojgan, Filip, Ginter and Joakim Nivre. (2016). Universal Dependencies for Persian. In Proceedings of the 10th International Conference on Language Resources and Evaluation (LREC), Portorož, Slovenia.
 
