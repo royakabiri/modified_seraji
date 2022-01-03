@@ -5,4 +5,9 @@ The presence of annotation errors or inconsistencies is detrimental to the inten
 
 In the process of preparing the annotation guidelines and annotating the automatically parsed sentences of the Informal Persian Universal Sependency Treebank (https://github.com/royakabiri/iPerUDT), several linguistically grounded problematic annotations in the Uppsala treebank annotation scheme we discovered. In many cases, it did not respect the UD guidelines, either. Through data analysis, therefore, we detected all the linguistically inaccurate or UD non-compliant annotations, searched for in the rest of the treebank, identified the patterns, and designed linguistic rules to fix the errors. 
 
+# References 
+
+Nivre, Joakim, Marie-Catherine de Marneffe, Filip Ginter, Jan Hajič, Christopher D. Manning, Sampo Pyysalo, Sebastian Schuster, Francis M. Tyers, and Dan Zeman. (2020). Universal dependencies v2: An evergrowing multilingual treebank collection. In Proceedings of the 12th Conference on Language Resources and Evaluation (LREC), 4027–4036.
+
+Seraji, Mojgan, Filip, Ginter and Nivre, Joakim. (2016). Universal Dependencies for Persian. In Proceedings of the 10th International Conference on Language Resources and Evaluation (LREC), Portorož, Slovenia.
 
