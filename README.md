@@ -35,7 +35,7 @@ In what follows, we address the main annotation problems found in the Uppsala Pe
 
 The linguistic rules were implemented for problems 1-10 to automatically modify the treebank. With such conversions, we could automatically correct errors with high accuracy.
 
-For problem 11, however, it was not possible to design a linguistic rule because possessive constructions in Persian lack a distinctive marker that could be utilized to automatically identify them.  This structure could only be annotated by humans using their semantic intuition. Furthermore, an automatic rule for problem 12 would have resulted in numerous incorrect and inconsistent annotations due to the different possible configurations of copula constructions in the informal variety of the language. Therefore, I manually corrected the last two problematic annotations in the Uppsala UD treebank.
+For problem 11, however, it was not possible to design a linguistic rule because possessive constructions in Persian lack a distinctive marker that could be utilized to automatically identify them.  This structure could only be annotated by humans using their semantic intuition. Furthermore, an automatic rule for problem 12 would have resulted in numerous incorrect and inconsistent annotations due to the different possible configurations of copula constructions in the informal variety of the language. Therefore, we manually corrected the last two problematic annotations in the Uppsala UD treebank.
 
 
 
