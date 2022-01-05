@@ -33,7 +33,9 @@ In what follows, we address the main annotation problems found in the Uppsala Pe
 
 12) The copula _budan_ ‘to be’ is treated as the head of a clause where the nonverbal predicate is a prepositional phrase. The nonverbal predicate is considered the head if it is an adjectival phrase or noun phrase. This inconsistent annotation of copula constructions is not compatible with linguistic analysis of this structures and the UD guidelines. Copula has been argued to serve as a tool for semantic composition, applying the predicate to the argument and carrying tense information without having inherent lexical semantic content (Pustet, 2003; Hengeveld, 1992). Besides, several languages such as Russian and Arabic lack an overt copula in present tense copula constructions (Camilleri and Sadler, 2019; Roy, 2013; Aoun et al., 2010). It is not thus accurate to consider the Persian copula _budan_ as the head of the clause even when the nonverbal predicate is a prepositional phrase. Furthermore, Seraji et al. (2016) use two different POS tags for this copula: AUX if used in a copular construction; VERB if is accompanied by other verbal auxiliaries or verbal predicates (e.g. present perfective verbs) and taken as dependent of the lexical predicate. However, it should have the same tag in both cases since the tag VERB is reserved only for verbal predicates.
 
-The linguistic rules were implemented for problems 1-10 to automatically modify the treebank. With such conversions, we could automatically correct errors with high accuracy.
+The linguistic rules were implemented for problems 1-9 to automatically modify the treebank. With such conversions, we could automatically correct errors with high accuracy. 
+
+To label the proper nouns (problem 10), we used PerUDT (Rasooli et al., 2020) to train the Stanza parts of speech tagger (Qi et al., 2020) as proper nouns are annotated in this treebank. The proper nouns were then obtained by evaluating the trained model on the Uppsala UD treebank. All proper nouns were manually checked and validated afterwards. There were 7735 proper noun tokens found.
 
 For problem 11, however, it was not possible to design a linguistic rule because possessive constructions in Persian lack a distinctive marker that could be utilized to automatically identify them.  This structure could only be annotated by humans using their semantic intuition. Furthermore, an automatic rule for problem 12 would have resulted in numerous incorrect and inconsistent annotations due to the different possible configurations of copula constructions in the informal variety of the language. Therefore, we manually corrected the last two problematic annotations in the Uppsala UD treebank.
 
@@ -54,6 +56,8 @@ Kabiri, Roya, Simin, Karimi, and Mihai Surdeanu (to appear). Informal Persian Un
 Nivre, Joakim, Marie-Catherine de Marneffe, Filip Ginter, Jan Hajič, Christopher D. Manning, Sampo Pyysalo, Sebastian Schuster, Francis M. Tyers, and Dan Zeman. (2020). Universal dependencies v2: An evergrowing multilingual treebank collection. In Proceedings of the 12th Conference on Language Resources and Evaluation (LREC), 4027–4036.
 
 Pustet, Regina. (2003). Copulas. Universals in the categorization of the lexicon. Oxford University Press.
+
+Qi Peng, Yuhao Zhang, Yuhui Zhang, Jason Bolton, and Christopher D. Manning. (2020). Stanza: A Python Natural Language Processing Toolkit for Many Human    Languages. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: System Demonstrations, 101–108.
 
 Roy, Isabelle. (2013). Nonverbal predication: Copular sentences at the syntax-semantics interface. Oxford: Oxford University Press.
 
